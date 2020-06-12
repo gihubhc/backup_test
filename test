@@ -1,2 +1,26 @@
 test 
 test
+
+	• Git 백업 및 이전 방법 
+		○ 원격지로의 이동 방식
+			§  Git push?
+			
+		○ 전체 백업 방식 
+			§ Git clone으로 원격지에서 대상 장비로 끌어옴. 
+				□ git clone --mirror git://github.com/… 
+					® 이런식으로 끌어옴. 
+			§ Git 도구 - Bundle 사용?
+				□ 한 개의 바이너리 파일로 만들어 옮기는 방식
+				□ 압축해서 옮기는 것처럼 어렵지 않음.  
+		○ 테스트 방법 
+			§ git 만듦
+				□ https://github.com/gihubhc?tab=repositories
+			§ 테스트 파일 만듦
+				□ https://github.com/gihubhc/backup_test/blob/master/test
+					® 이걸로 부족하니 모니터링 관련 문서 채워놓을 예정 
+			§ 로컬에 옮김
+				□ ssh 이용 외부 서버에 로컬 저장소 마련  
+			§ bundle 만듦.
+				□ 백업을 위한 bundle 명령어 사용 백업하기 
+	• 참고
+		○ https://www.lesstif.com/gitbook/gitlab-19857653.html
