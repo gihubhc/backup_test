@@ -24,3 +24,5 @@ test
 				□ 백업을 위한 bundle 명령어 사용 백업하기 
 	• 참고
 		○ https://www.lesstif.com/gitbook/gitlab-19857653.html
+키는 chmod 400(읽기전용), 600(읽고쓰기) 이렇게 설정해야 함. 
+777은 너무많은 권한을 준다고 에러남. 
